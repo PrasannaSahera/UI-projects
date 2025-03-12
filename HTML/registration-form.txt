@@ -1,0 +1,19 @@
+Registration Form
+Please fill out this form with the required information
+
+
+Enter Your First Name: 
+Enter Your Last Name: 
+Enter Your Email: 
+Create a New Password: 
+Account type (required)
+ Personal
+ Business
+
+Upload a profile picture: No file chosen
+Input your age (years): 
+How did you hear about us? 
+(select one)
+Provide a bio: 
+I like coding on the beach...
+I accept the terms and conditions

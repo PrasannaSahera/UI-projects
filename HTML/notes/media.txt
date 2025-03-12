@@ -1,0 +1,42 @@
+Media files are used to represent visual presentation such as images, videos , audios etc.,
+we can include different media elements,
+    1. audio : we can include audio files in websites using 'audio' tag. 
+                The source of audio file will be mentioned with 'source' tag
+                After including the audio add the controls (play, pause, download options) attribute to audio tag, otherwise it will not appear
+                source is self closing tag
+
+            syntax: 
+                <audio autocontrols>
+                    <source src="Path to audio file"> <!-- ./ - for current folder, ../- for previous folder -->
+                </audio>
+    2. video : we can include video files in websites using 'video' tag.
+                The source of video file will be mentioned with 'source' tag
+                source is self closing tag
+                After including the video add the controls  (play, pause, download options) attribute to video tag, otherwise it will not appear
+                By default, chrome browser not allow to play the video until we mention autoplay mute attributes.
+
+                <video autocontrols>
+                    <source src="Path to audio file">
+                </video>
+
+                autocontrols is mandatory to bring controls and we can autoplay and muted also. We can control height and width properties also.
+    3. iframe : If we want to mention the external videos, PDF, maps etc., suse this tag
+                source attribute will have the location of the file to load, it can be a local or external files
+                frameborder will give the border to it, if we dont want then make it 0
+                we can give width and height to it to adjust in its place
+
+        iframe is used to present any media of third oarty. It is used embedded code (generated code by third party).
+        Iframe contains src(source file/link path), frameborder(border of the frame).
+        Any public resource of internet can be embedded
+
+        eg: <iframe width="560" height="315" src="https://www.youtube.com/embed/695GrfOHN6o?si=hCestkJZ_6O36G-z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    4. figure : If we want to show the picture with its caption then we will use this tag.
+                figcaption tag will be used to mention the caption of the image
+
+        figure tag is semantic element which is used to print images along with its caption
+       
+        eg: <figure>
+                <img scr="" alt="">
+                <figcaption>caption of image</figcaption>
+            </figure>

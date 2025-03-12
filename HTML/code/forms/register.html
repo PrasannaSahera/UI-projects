@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form action="register.php">
+        <fieldset>
+            <legend>Register</legend>        
+            <p>
+                <label for="txtName">Full Name : </label>
+                <input type="text" name="txtFName" id="txtName">
+            </p>       
+            <p>
+                <label for="txtEmail">Email ID: </label>
+                <input type="email" name="txtEmail" id="txtEmail">
+            </p>
+            <p>
+                <label for="txtPhone">Contact No : </label>
+                <input type="number" name="txtPhone" id="txtPhone">
+            </p>
+            <p>
+                <label>Mode of Training : </label>
+                <input type="radio" name="raTrain" id="raTrain1" value="online">
+                <label for="raTrain1">Online</label>
+                <input type="radio" name="raTrain" id="raTrain2" value="classroom">
+                <label for="raTrain2">Classroom</label>
+            </p>
+            <p>
+                <label>Courses : </label>
+                <input type="checkbox" name="chCourse" id="chCourse1" value="fsjava">
+                <label for="chCourse1">Full Stack JAVA</label>
+                <input type="checkbox" name="chCourse" id="chCourse2" value="java"> 
+                <label for="chCourse2">JAVA</label>
+                <input type="checkbox" name="chCourse" id="chCourse3" value="html"> 
+                <label for="chCourse3">HTML/CSS</label>
+                <input type="checkbox" name="chCourse" id="chCourse4" value="js"> 
+                <label for="chCourse4">JS</label>
+                <input type="checkbox" name="chCourse" id="chCourse5" value="py"> 
+                <label for="chCourse5">Python</label>
+            </p>
+            <p>
+                <label>Upload Your Payment Receipt  [with UTR/Ref No.]</label>
+                <input type="file" name="fRect" id="fRect">
+            </p>
+            <p>
+                <input type="submit" value="Submit" name="submit" id="submit">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

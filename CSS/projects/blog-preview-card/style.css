@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin :0px;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{    
+    font-family: Figtree, sans-serif;
+    font-size: 16px;   
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2{
+    font-weight: 800;
+}
+
+.container{
+    background-color:white;
+    height: 510px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border-radius: 15px;
+    border:1px solid black;
+    box-shadow: 7px 7px;    
+}
+
+.details{
+    display: flex;
+    flex-direction: column;    
+    padding-left:20px;
+    border:0px solid black;
+    gap: 20px;    
+}
+
+.banner{
+    width:25vw;
+    border-radius: 10px;
+    margin:20px 10px;
+}
+
+.tags{
+    background-color:hsl(47, 88%, 63%);
+    width:7vw;
+    text-align: center;
+    border-radius: 5px;
+    padding:7px;
+    font-weight: 800;   
+}
+
+.date
+{
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+}
+
+.authicon
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+.authiconimg
+{
+    height: 32px;
+    width: 31px;
+}
+
+.para{   
+    color: hsl(0, 0%, 42%);    
+}

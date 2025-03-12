@@ -1,0 +1,81 @@
+GIT(software) & GITHUB(website):
+
+    Git is a distributed version control system. It is a software, we need to download and install. Git is used to track changes(versions) in your code base.
+
+    Git is developed and maintained by ORACLE.
+
+
+    GITHUB is a web based platform that provides a central location to git repositories. It makes others to collaborate into your projects.
+
+    GITHUB is developed and maintained by microsoft.
+    eg: github, gitlab, bitbuckets etc., are website which you will share your code into each other and collaboraet.
+
+    bitbuckets is done by amazon.
+
+
+    Git is free and open source.
+
+
+    Steps to install GIT:
+
+    1. goto to https://git-scm.com/downloads
+    2. operating system -> 64 but windows setup
+    3. click and install, after installing to check it is installed or not go to command prompt,   
+    cmd > git -v
+    it gives git version 2.48.1.windows1, if installed succesfully.
+    If not, 1st restart s/m and check, still not came then not installed properly install again and do check.
+
+
+
+GIT terminology:
+
+1. repository(repo) :
+    It is the central location where all the files and history of project, all the changes are stored like a folder.
+2. commit :
+    It is like saving the changes, it creates a snapshot of particular changes made at that point.
+3. branch :
+    Branch is separate line in repository, allowing multiple versions of single code, exist.
+4. merge : 
+    merge means process of combining mulitple brances
+
+github> settings>> go down>> delete..follow steps and delete
+
+
+create repo in github,
+
+write the name, description,
+if any instructions, ADD README file
+
+
+GNU General public license : use my code but dont sell it...
+No license..
+and create....
+
+Git commands:
+
+1. git init:    it will initiate the git
+2.git config:   it will let the git know who you are like, name,email,folder...
+    git config user.email "your-email-id of github"
+    git config user.name "your username of github"
+This need to done only first time
+
+3. git add . : It will stage all the changes (taking all the changes is staging)
+4. git commit -m "message" : it will save your code with some message
+
+5. git remote add origin : it is used to add a repository of github into your git
+
+>> git remote add origin <gitfolderlink>
+
+6. git push -u origin branch: it is used to push the code into github for first time, it will ask you to login
+here "branch" can be main or master it will appear in the editor taskbar check it
+
+every change you need to repeat step 3,4,6
+
+git checkout : it is used to change branch name
+    egL git checkout branchname
+git branch : displays all branches
+git status : it will list the changes what happen...
+git log: to see all the logs
+
+
+gift head >> for verion back

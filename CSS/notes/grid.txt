@@ -1,0 +1,75 @@
+- Grid is used to arrange the elements in two dimensions i.e., rows and columns.
+- Gid is also used for complex layouts
+using grid lines (row lines and column lines)
+
+parent properties:
+-----------------------
+1. display:grid 
+    - arrange child items fit in grid.
+2. grid-template-columns: col1-width col2-width...
+    -mention each column width to divide as columns
+    -100px 100px/ repeat(2,100px)/ 50% 50% / 1fr 1fr
+3. grid-template-rows : row1-width row2-width...
+    - mention each row height to divide as rows.
+    -100px 100px/ repeat(2,100px)/ 50% 50% / 1fr 1fr
+4. justiy-content : 
+        which will move items in horizontal direction
+5. align-items: which will move items in vertical direction.
+6. gap : gap between the items(row-gap/colum-gap)
+
+child properties:
+-----------------
+ grid is divided as per row lines and column lines i.e., 3 rows will have 4 row lines and 4 columns havfe 4 column lines
+
+1. grid-row-start : starting row line number
+2. grid-row-end : ending row line number
+3. grid-column-start : starting column line number
+4. grid-column-end : ending column line number
+5. grid-row : grid-row-start/grid-row-end
+6. grid-column : grid-column-start/grid-column-end
+7. grid-area : grid-row-start/grid-column-start/grid-row-end/grid-column-end
+8.order: by default order is zero. we can specify each one element's order
+
+
+
+
+gridgarden : https://cssgridgarden.com/
+
+1: 
+2:
+3:
+4: grid-column-end: 2;
+5:grid-column-end: 5;
+6: grid-column-end: 5;
+7: grid-column-end: 4;
+8: grid-column-end: 6;
+9: grid-column-start: 3;
+10: grid-column:4/6;
+11: grid-column:2/5;
+12: grid-row:3/4;
+13: grid-row : 3/6;
+14: grid-column :2; grid-row:5;
+15:
+16: grid-area:1/2/3/4
+17: grid-area: 2/3/5/6  
+18:
+19: order:-1;
+20: grid-template-column:  repeat(2,50%) or repeat(2,auto) or  50% 50% or 1fr 1fr;  
+21: grid-template-column: repeat(8,12.5%);
+22: grid-template-column: 100px 3em 40%;
+23: get-template-column:1fr 5fr
+24: get-template-column: 50px 1fr 1fr 1fr 50px or 50px repeat(3,fr) 50px;
+25:get-template-column:75px 3fr 2fr;
+26: get-template-row:repeat(4,12.5px) 1fr;
+27: get-template-column:2fr 3fr;
+get-template-row:3fr 2fr;
+(or)
+grid-template: 3fr 2fr/2fr 3fr;
+
+28: grid-template: 1fr 50px/20% 80%;
+
+
+https://flexboxlabs.netlify.app/grid
+https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7
+https://codingfantasy.com/games
+https://cssgridgarden.com/

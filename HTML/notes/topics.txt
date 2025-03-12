@@ -1,0 +1,15 @@
+https://github.com/prasad-bigdp/730HTMLCSSJS
+
+-- Internet Fundamentals
+-- UI & UX desgin (figma)
+HTML
+    -- Intro
+    -- headings, p, a, img
+    -- formatting tags
+    -- lists
+    -- block vs inline
+    -- semantic elements, class & Id
+    -- tables
+    -- media ( audio, video, iframe, figure)
+    -- forms
+    -- HTML5

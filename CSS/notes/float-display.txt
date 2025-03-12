@@ -1,0 +1,17 @@
+Float :
+    - In CSS it is used to specify whether an element should be floated to the left or right.
+    - float: left /right /none 3 properties
+    -if element x is floating right side of element y , in case y element need to clear its right side,we can use property 'clear'.
+     clear: left/right/both/none
+
+display: 
+    - It is used to present the elements in different ways. such as,
+    i. block : 
+        - block elements contains height and width. They comes  one after the other.
+    ii. inline : 
+        - inline elements doest not contain height and width, and always comes side by side.
+    iii. inline-block:
+        - These elements are inline but they can contain height and width.
+    iv. none:
+        - These elements will be removed from view.
+        - This property can be applied to any thing.

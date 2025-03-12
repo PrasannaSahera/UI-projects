@@ -1,0 +1,68 @@
+freecodecamp
+googlefonts
+dafonts
+100fonts
+colorZilla(extension)
+colorhunt
+cssgradient.lo
+patterncss
+colorpicker
+freepik, unsplash,pexels
+flexboxfroggy
+flexboxlabs.netlify.app
+
+
+magicpattern
+cssbattle
+frontendmentor
+https://flexboxlabs.netlify.app/grid
+https://cssgridgarden.com/
+https://codingfantasy.com/games
+
+
+
+some sample project by sir - https://github.com/prasad-bigdp/11am-new.git
+
+
+to create sample projects
+---------------------
+FrontendMentor:
+    create an account
+    go to challenges -- select 1 free challenge
+    open challenge --> download assets --> download starter
+    extract zip file and do the code
+
+Once the code is finished..
+Netlify:
+    create an account
+    goto add new/deploy manually
+    upload folder --> select your folder --> upload
+    goto site config and change name as you like
+    
+
+ Akshay Gir:
+https://fem-blog-previewcard.netlify.app/
+https://elements-all.netlify.app/
+https://fem-grid.netlify.app/
+https://staranim.netlify.app/
+https://akshaygir-portfolio.netlify.app/
+
+
+yuvan:
+https://magical-donut-4b9276.netlify.app/
+
+https://vikrantsharma.netlify.app/
+https://shivani9.netlify.app/
+
+
+
+my projects:
+-------------
+https://mkl-order-summary.netlify.app/
+https://mkl-blog-preview.netlify.app/
+https://mkl-photoframe.netlify.app/
+
+surge
+verse
+
+animista - for animation practice

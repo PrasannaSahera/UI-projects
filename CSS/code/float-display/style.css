@@ -1,0 +1,41 @@
+.shicnhanImg
+{
+    float:right;
+}
+
+.child
+{
+    height:100px;
+    width: 100px;
+    background-color:red;
+    margin:20px;
+    color: white;
+    font-size:48px;
+    display: inline-block;
+}
+
+.child1
+{
+    display: none;
+   /* visibility: hidden;*/
+}
+
+/*
+.child1
+{
+    float:left;
+}
+
+.child2
+{
+    float:left;
+}
+.child3
+{
+    float:left;
+}
+
+p
+{
+    clear:both;
+}*/

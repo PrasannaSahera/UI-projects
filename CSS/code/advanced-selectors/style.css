@@ -1,0 +1,162 @@
+h1>a
+{
+    color:green;
+}
+
+p>a
+{
+    color:green;
+}
+
+div a{
+    color:blue;
+    display:block;
+}
+div a:hover{
+    display:none;
+}
+
+ul span{
+    color:green;
+}
+
+h1+p{
+    color:red;
+}
+
+#box{
+    background-color: red;
+    height: 100px;
+    width:100px;
+}
+#box:hover{
+    height:200px;
+    background-color: green;
+    /*cursor:wait; */
+}
+
+
+a:link{
+    color:green;
+}
+
+a:visited{
+    color:purple;
+}
+
+a:active{
+    color:red;
+}
+
+
+input:required{
+    border:1px solid red;
+}
+
+input:read-only{
+    border:1px solid blue;
+}
+
+input:read-write{
+    border:1px solid orange;
+}
+
+input:disabled{
+    border:1px solid green;
+}
+.child{
+    width:50px;
+    height:50px;
+    background-color:green;
+    margin: 10px 10px;
+    color:white;
+}
+
+/*.parent > .child
+{
+    background-color: yellow;
+}
+.parent > .child:nth-child(odd)
+{
+    background-color: yellow;
+}
+
+.parent > .child:nth-last-child(8)
+{
+    background-color: rgb(255,0,0);
+}*/
+
+.parent >div:nth-of-type(1)
+{
+    background-color: rgb(255,0,0);
+}
+
+
+inout::placeholder{
+    text-align: right;
+}
+
+p::first-letter{
+    font-size:48px;
+}
+
+p::first-line{
+ color:red;
+}
+
+p::before{
+    content:"\201C";
+}
+p::after{
+    content:"\201D";
+    font-size:48px;
+}
+
+#box1{
+    height:100px;
+    width:100px;
+   /* background-color:red;
+    transition-property: background-color,height;
+    transition-duration: 5s;*/
+    transition: all 2s;
+}
+/*#box1:hover{
+    background-color: green;
+    height:200px;
+    cursor:wait;
+}
+
+p{
+    font-size:16px;
+    transition: all 2s;
+}
+p:hover{
+    font-size:32px;
+}*/
+
+ /*#box1:hover{
+   transform: scale(1.1);
+}*/
+
+#box1>img{
+    height:100px;
+    width:100px;
+    /*position: absolute;
+    bottom:0;*/
+    position: relative;
+    top:80vh;
+    transition: al 5s ease;
+}
+
+#box1>img:hover{
+   /* transform:rotate(45deg);
+   
+   filter:grayscale();
+   filter:opacity(0.2);
+   filter:invert();
+   filter:hue-rotate(240deg);*/
+   /*transform:translateX(200px); rotate(360deg)*/
+   /*transform:translatey(-200px);*/
+   top:0%;
+}
+

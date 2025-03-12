@@ -1,0 +1,1 @@
+(li>a)*4 => gives a tag inside li  4times

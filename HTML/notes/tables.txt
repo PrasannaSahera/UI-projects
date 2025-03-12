@@ -1,0 +1,63 @@
+Tables are used to represent the data in rows and columns
+horizonal line of data is called row
+vertical line of data is called columns
+
+-- to represent table in HTML, we use 'table' tag
+-- to represent table row in HTML, we use 'tr' tag
+-- To represent table columns in HTML, we use 'th' (table heading) tag or 'td' (table data) tag
+
+To combine rows use rowspan
+To combine columns use colspan
+
+
+  <table border="1">
+        <tr>
+            <th colspan="6">Time Table </th>
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>arts</td>
+        </tr>
+        <tr> 
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>arts</td>
+        </tr>
+        <tr>
+            <th colspan="5">LUNCH</th>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <th rowspan="2" colspan="2">Projects</th>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+        </tr>
+    </table>
+
+
+
+
+website : dev.to
+It is develop communite
+create account and login
+it is like facebook and instagram..
+Read articles and learn new
+

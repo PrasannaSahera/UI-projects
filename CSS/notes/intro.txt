@@ -1,0 +1,93 @@
+CSS (Cacading Style style Sheets):
+        - It is a styling language used to control the layout and appearence of web pages. 
+        - It is used to separate the styles/design from the structure of web page. 
+        - It started in 1994.
+
+CSS syntax contains set of rules known as style, which are applied to elements of the web page. It consists of 
+
+i. selector : it defines what element style will be applied 
+ii. property : it defines what property to be applied
+iii.value : it defines what value for the given property will be applied.
+
+for eg:
+
+    p -- > selector
+    { 
+        background-color : red; --> property : value;
+    }
+
+CSS Types:
+
+    CSS can be applied to HTML elements in 3 ways
+
+    i. Inline CSS (or) Inline styleing:
+            - Defined directly within the HTML element using style as an attribute.
+
+        syntax :
+            <element style="property:value....">content</element>
+
+    ii. Internal CSS :
+           -  Defined within HTML document using style as an Element.
+           -  We can mention style element anywhere but keeping at the end of head will give better performance.
+
+        syntax:
+
+        <style>
+            selector
+            {
+                property:value;
+            }
+        </style>
+
+    iii. External CSS : 
+            - Making all syles in HTML file will make file longer and difficult to understand. so, we can use CSS files separately from HTML using .css extension
+            - we can link html to external CSS using link tag. link is a self closing tag.
+
+        syntax:
+
+            <link rel="stylesheet" href="path to css file">
+
+            - content of external file is similar to internal CSS content
+
+                selector
+                {
+                    property : value;
+                }
+
+Out of all three types Inline is more powerful.
+!important > Inline > Internal = external
+
+
+Selectors:
+
+    We can select HTML elements in multiple ways
+
+    i. tag selector :
+           - We can select all elements containing specific tag using tag name as a selector
+
+        syntax:
+
+            tagname
+            {
+                property:value;
+            }
+    ii. class : 
+            - We can select multiple specific elements containing a class name using class selector. 
+            - Class selector using dot(.) notation.
+
+        syntax:
+            .classname
+            {
+                property : value;
+            }
+    iii. Id :
+            - we can select any one individual element using Id.
+            - we can represent Id using hash(#) notation.
+
+            #Id
+            {
+                property : value;
+            }
+            #Id > .class > tag selector
+
+

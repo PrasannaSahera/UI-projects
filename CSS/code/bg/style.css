@@ -1,0 +1,31 @@
+body
+{
+    height: 100vh;
+    background-color:  #8ecf8e;
+   /* background-color: goldenrod;    
+    background-image: linear-gradient(45deg ,orange,rgb(95,95,243));
+    background-image: linear-gradient(45deg,orange,rgb(95,95,243), red,pink,violet, yellow,blue,green);
+
+    background-image : radial-gradient(orange,green,orange, green,orange,green);
+  */  
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-image: url('https://images-cdn.ubuy.co.in/634e98a167889f62606a4003-barbie-sparkle-lights-pink-princess-doll.jpg'); 
+    background-blend-mode: darken;
+    */   
+    /*background-attachment: fixed;*/    
+}
+
+h1
+{
+    font-size : 144px;
+    text-align: center;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/1/19/Marvel_Universe_%28Civil_War%29.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}

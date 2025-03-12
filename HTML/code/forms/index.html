@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="main.py" method="get">
+        <fieldset>
+            <legend>SignUp From</legend>
+            <label for="na"> Name:</label>
+        <input type="hidden" name="txthide" value="valhid">
+        <input type="text" name="na" id="na" placeholder="Enter the name" > 
+        <br><br>
+        <label for="course">Course</label>
+        <select name="course" id="course">
+            <optgroup label="ENGG">
+                <option value="Mech">Mech</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+            </optgroup>
+            <optgroup label="DEGREEG">            
+                <option value="BSC">BSC</option>
+                <option value="BCA">BCA</option>
+                <option value="BCOM">BCOM</option>
+                <option value="BBA">BBA</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+                <option value="MCOM">MCOM</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <label for="em"> Email:</label>
+        <input type="email" name="em" placeholder="eg: a@a.com" id="em">
+        <br><br>
+        <label for="pwd"> Password:</label>
+        <input type="password" name="pwd" id="pwd" placeholder="Enter the password">
+        <br><br>
+        <lable for="states">Please Select your state</lable>
+        <select name="states" id="states">
+            <option value="KN"|>Karnataka</option>
+            <option value="MR"|>Maharastra</option>
+            <option value="AP"|>AP</option>
+            <option value="OD"|>Odisha</option>
+            <option value="BH"|>Bihar</option>
+            <option value="TN"|>Telangana</option>
+        </select>
+        <br><br>
+        <input type="date" name="doj" id="dobj">
+        <input type="time" name="time" id="time">
+        <input type="datetime-local" name="dtl" id="dtl">
+        <input type="number" name="num" id="num">
+        <input type="file" name="file" id="file">
+        <input type="color" name="" id="">
+        <input type="month" name="" id="">
+        range<input type="range" name="" id="">
+        <br><br>
+        <input type="url" name="" id="">
+        <input type="search" name="" id="">
+        <input type="week" name="" id="">
+        <br><br>
+            <input type="radio" name="gender" id="m" value="male">
+            <label for="m">Male</label>
+            <input type="radio" name="gender" id="f" value="female">
+            <label for="f">Female</label>
+        <br>
+        
+        <label for="addr">Address:</label>
+        <textarea name="addr" id="addr"></textarea>
+        <br><br>
+       
+        <input type="button" value="some button">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <button>Submit</button>
+        </fieldset>               
+    </form>
+    <br><br>
+    <form action="main.py" method="get">
+        <fieldset>
+            <legend> Questions</legend>
+            <p>
+               Q1: How the weather Today?
+            </p>
+            <input type="radio" name="weather" id="qopt1" value="sunny">
+            <label for="qopt1">Sunny</label>
+            <input type="radio" name="weather" id="qopt2" value="cloudy">
+            <label for="qopt2">Cloudy</label>
+            
+            <p>Q2: Languages known </p>
+            <input type="checkbox" name="lang" id="lang1" value="eng">
+            <label for="en">English</label>            
+            <input type="checkbox" name="lang" id="lang1" value="te">
+            <label for="en">Telugu</label>
+            <input type="checkbox" name="lang" id="lang1" value="hi">
+            <label for="en">Hindi</label>
+           
+            <p>Q3: Courses known </p>
+            <input type="checkbox" name="course" id="c1" value="html">
+            <label for="c1">HTML</label>            
+            <input type="checkbox" name="course" id="c2" value="java">
+            <label for="c2">Java</label>
+            <input type="checkbox" name="course" id="c3" value="oracle">
+            <label for="c3">ORACLE</label>
+            <br><br>            
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
