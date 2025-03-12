@@ -64,7 +64,8 @@ This need to done only first time
 
 5. git remote add origin : it is used to add a repository of github into your git
 
->> git remote add origin <gitfolderlink>
+>> git remote add origin <gitfolderlink> 
+eg: git remote add origin https://github.com/PrasannaSahera/UI-projects.git
 
 6. git push -u origin branch: it is used to push the code into github for first time, it will ask you to login
 here "branch" can be main or master it will appear in the editor taskbar check it
