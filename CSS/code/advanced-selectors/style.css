@@ -92,7 +92,7 @@ input:disabled{
 }
 
 
-inout::placeholder{
+input::placeholder{
     text-align: right;
 }
 

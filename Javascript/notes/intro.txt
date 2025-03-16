@@ -1,0 +1,55 @@
+Javascript (JS):
+
+    JS is a scripting language  which is used to bulid functionality of web pages.
+
+    scripting language:
+    we will go with simple code. 
+    no need to convert.
+
+    JS runs in the browser with the help of JS engine.
+    Every browser will have JS engine.
+    For eg: Google chrome have js engine called V8.
+
+    JS can run in client(browser) - client side javascript
+
+    JS can also run in server (node.js) - server side javascript
+
+
+Java vs Javascript:
+
+JS is created in 1995, december by brenden Eich, initially it was named as "LiveSCript". Due to the popularity of Java , LiveSCript is renamed as Javascript.
+
+java follows Object Oriented Programming.
+
+JS follows modular Programming - funtional programming
+
+How to include JS into HTML?
+
+There are two ways to include JS into HTML
+i.internal JS :
+    In internal JS, we use javascript Inside "Script" element
+
+eg: <script>
+        console.log("Hello World!!");
+    </script>
+
+ii. External Javascript:
+    In external JS, we use separate .js file and link it using script tag with src attribute
+
+    //prasad.js
+    console.log("hello world");
+    //index.html
+    <sript src="prasad.js"></script>
+
+Comments in JS:
+    comments are not run by any compiler/engines. Comments are used for readability of the code. In JS, we can write two types of comments.
+
+    i. single line:
+        These comments are followed after double slashes (//).These are used for only single line.
+    ii. Multi line : These comments are within /* and */. These are used for single or multiple lines
+
+Developer Tools in browser:
+
+    Every browser provides lot of developer tools which can be seen by inspect the site.
+
+    open any website --> right click --> select inspect or ctrl+shift+I

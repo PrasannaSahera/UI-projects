@@ -66,7 +66,8 @@ iii. Responsiveness:
         Bootstrap follows mobile first design ( design in mobile design first and then do changes for desktop)
 
         suffixname              width
-   ---------------------------------------      -----(no name)          <=5760x (used for mobiles) 
+   ---------------------------------------      
+        (no name)           <=5760x (used for mobiles) 
         sm                  >576px to <=768px(landsape mode)    
         md                  >768px to <=992px(tablets)
         lg                  >992px to <=1280px (small laptops, desktop PC)

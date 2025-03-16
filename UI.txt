@@ -20,3 +20,6 @@ For notes and code below is the link:
 7/2/25 : task
 
     https://info.cern.ch/hypertext/WWW/TheProject.html - try to recreate the same website on your own
+
+
+Wappalyzer - Technology profiler - Google extension

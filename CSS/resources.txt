@@ -54,7 +54,10 @@ https://magical-donut-4b9276.netlify.app/
 https://vikrantsharma.netlify.app/
 https://shivani9.netlify.app/
 
+sunny-yeot-2a1572.netlify.app
+https://karan2004.netlify.app/
 
+https://abhi-2003.netlify.app/
 
 my projects:
 -------------
@@ -62,7 +65,12 @@ https://mkl-order-summary.netlify.app/
 https://mkl-blog-preview.netlify.app/
 https://mkl-photoframe.netlify.app/
 
+
+-----------
 surge
 verse
 
 animista - for animation practice
+window+. => emojis 
+codepen.in
+UI verse

@@ -83,4 +83,4 @@ git status : it will list the changes what happen...
 git log: to see all the logs
 
 
-gift head >> for verion back
+git head >> for verion back

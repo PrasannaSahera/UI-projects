@@ -1,8 +1,8 @@
-#box{
+/*#box{
     height:100px;
     width:100px;
     background-color:red;
-    /*animation : bouncing-ball 10s ease;*/
+    /*animation : bouncing-ball 10s ease;* /
     animation : changeColor 5s ease infinite reverse, bouncing-ball 10s ease-in-out infinite reverse;
 }
 
@@ -65,7 +65,7 @@
        transform: translate(0px);
    }
 
-}
+}*/
 
 
 #typing{

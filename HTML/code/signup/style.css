@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(3, 92, 92);
+}
+.container{
+    padding: 20px;
+    border:1px solid black;
+    width:300px;
+    background-color: rgb(203, 226, 246);
+    border-radius: 10px;
+}
+ form input{
+    padding: 5px;
+    border-radius: 5px;
+    
+ }
+input[type="submit"]{
+    background-color:rgb(71, 180, 71);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+
+}
+input[type="reset"]{
+    background-color:rgb(71, 180, 71);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+
+}
