@@ -18,3 +18,112 @@ a = "prasad" + 2;  //"prasad"+"2"
 Javascript data types are divided as two categories
 i. primitive data types
 ii. non-primitive data types
+
+i. primitive data types :
+    primitive data types are the basic data types which are used to stored certain value. There are 5 main primitive data types exist in JS
+        a. number
+        b. string
+        c. boolean
+        d. undefined
+        e. null
+
+        a. number: 
+            - number is used to represent any numerical value
+            eg: 5, 5.256 etc., 
+            - It can contain constants like infinity and in the times when number is expected but not able to return, it goes to "NaN(not a number)"
+            - It contains some default methods like,
+
+            toFixed(n) :
+                return string with n number of digits after decimal
+                eg: 
+                    let p= 25.123-'p';
+                    p = Infinity;
+                    p= 5.426;
+                    console.log(p, typeof p);
+                    console.log(p.toFixed(2), typeof p); //5.3 -- answers will print as string
+            toString(n):
+                returns a string of number withbase n
+                eg:
+                    p=25;
+                    console.log(p.toString(2)); // 11001
+
+                There are ways to convert any value 'n' to number like
+                Number(n) or add + before n (+n)
+                eg:
+                    p= 5+ '5';
+                    console.log(p);//55
+                    p=5+ +'5';
+                    console.log(p); //10 + is used as typecast .. it will convert string to int and perform addition
+                    (or)
+                    p=10 + Number('10');
+                    console.log('add ' + p);
+
+                There are so many math methods available by Math library
+                eg:
+                    console.log(Math.sqrt(16)); //4
+                    console.log(Math.cbrt(27)); //3
+                    console.log(Math.abs(-10)); //10
+                    console.log(Math.max(5,1,3,4,6)); //6
+                    console.log(Math.min(3,4,2,1,8)); //1
+                    console.log(Math.ceil(4.0001)); //5
+                    console.log(Math.floor(4.8));//4
+                    console.log(Math.round(4.8,)); //5
+                    console.log(Math.random()); // return randomly between 0 to 1
+                    console.log(Math.round(Math.random()*10000)); // it gives 4 digits random number
+                    console.log(Math.pow(2,3)); //8
+                    console.log(2**3) // 8 -- it is also same as pow(2,3)
+        b. strings:
+                - strings are used to represent combination of alphabets, digits, symbols etc.,
+                - It can be represented using " " or ' ' or ` ` (backticks)
+                eg:
+                    let q = "prasanna";
+                    console.log(typeof q); // string
+                - There is no difference between single or double quotes
+                - The usage of backticks for string is called Template literal. It is used for writing dynamic strings without breaking the string.
+                - There are so many string methods are available such as
+                eg:
+                let str = "prasanna";
+                console.log(str.length); //8
+                console.log(str[0]);// p
+                console.log(str[0] + str[1]);// pr -- string concatenation
+                console.log(str.toUpperCase());//PRASANNA
+                console.log(str.toLowerCase()); // prasannna
+                console.log(str.startsWith("pr")); // true
+                console.log(str.startsWith("Pr")); // false -- case-senstive
+                console.log(str.endsWith("pr")); // false
+
+                let str="prasanna";
+                console.log(str.indexOf('a'));// return index of first occurence of given value
+                console.log(str.indexOf('a',3)); // return index of last occurence of given value
+                console.log(str.lastIndexOf('a'));
+                str = "JS is so easy";
+                console.log(str.split(' ')); // divide the string based on delimiter and returns array
+                console.log(str.slice(2,5)); // is returns part of string from 2nd index to nth index
+                str= "       prasanna   ";
+                console.log(str.trim());//prasad -- returns string after removing space at start and end of the string
+
+        c.boolean : it is used to store true or false. True represent 1 anf false represent 0.Mostly used in conditions.
+
+        d. undefined : It represents accidental absence of value.
+
+            There is no value now but I am sure one value will be there in future.
+
+            undefined means, missing of values
+            not defined means, error
+
+        e. null : it represents intentional absence of value
+            let k;
+            console.log(k, typeof k);// undefined
+            //console.log(z); // error bcz there is no z is defined
+
+            let n= null;
+            console.log("null===",n );
+            // in js it is possible to access values before declaration, called Hoisting. it is not possible with let and const (var is deprecated)
+            console.log("m", m) //undefined
+            var m=5;
+
+ii. non-primitive data types:
+    These data types also called reference datatypes. they are,
+    i.functions
+    ii.arrays
+    iii.objects
