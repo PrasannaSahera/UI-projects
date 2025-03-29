@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS : Tasks </title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body> 
+<div>
+    <p>background random change (another sol)</p>
+    <button onclick="changeBg(true)">Change background</button>
+    <button onclick="changeBg(false)">Reset</button>
+</div>
+<div>
+    <p>Accordins FAQ - without bootstrap</p>
+    <div class="accordion">
+        <h2>Accordion Using JavaScript</h2>
+        <div class="accordion-content">
+            <header>
+                <span class="accordion-content-title">
+                      What is GeeksforGeeks?
+                  </span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+            <p class="accordion-content-description">
+                  GeeksforGeeks is a one stop solution 
+                  for all computer science students.
+            </p>
+        </div>
+        <div class="accordion-content">
+            <header>
+                <span class="accordion-content-title">
+                      Which is the best portal to study Computer Science?
+                  </span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+            <p class="accordion-content-description"> 
+                  GeeksforGeeks is the best Computer Science portal 
+                  for geeks. It contains well written, well thought 
+                  and well explained computer science and programming articles.
+            </p>
+        </div>
+        <div class="accordion-content">
+            <header>
+                <span class="accordion-content-title">
+                      What GeeksforGeeks offer us?
+                  </span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+            <p class="accordion-content-description"> 
+                  GeeksforGeeks offers Free Tutorials, 
+                  Millions of Articles, Live, Online and 
+                  Classroom Courses,Frequent Coding Competitions, 
+                  Webinars by Industry Experts, Internship opportunities 
+                  and Job Opportunities.
+            </p>
+        </div>
+    </div>
+</div>
+<div>
+    <!-- Trigger/Open The Modal -->
+    <p><button id="myBtn">Open Modal</button></p>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Welcome To My Page....</p>
+        </div>
+    
+    </div>
+</div>
+<div>
+    <p>sliders</p>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./images/greeting-card-kalash-traditional-food-260nw-1043563735.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./images/ramadan-kareem.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./images/happy-ram-navami.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+</div>
+<div>
+    <p>hamburger menu</p>
+
+    <ul class="menu">
+        <li><a class="menuItem" href="#">Home</a></li>
+        <li><a class="menuItem" href="#">Profile</a></li>
+        <li><a class="menuItem" href="#">About</a></li>
+        <li><a class="menuItem" href="#">Contacts</a></li>
+      </ul>
+      <button class="hamburger">
+        <!-- material icons https://material.io/resources/icons/ -->
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
+
+
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>

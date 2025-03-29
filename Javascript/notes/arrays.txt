@@ -1,0 +1,118 @@
+Array is used to store certain number of elements. Array is a collection of elements.
+
+let arr = ["raj",20,true]
+
+- Arrays are represented by square brackets. 
+- Each value in the array is separated by comma and they are called array elements.
+- Every array element contains an unique number to address the element. That is called Index.
+- Indexes are always starts from 0 and increased by 1
+
+________________
+|    |    |    |
+| raj| 20 | 20 |
+|____|____|____|
+  0    1     2
+
+  arr[0] = "raj"; arr[1]= 20; arr[2] = true
+
+- In JS, array don't have any limit.
+- arrays are mutable, which will change and strings are immutable, will not change its original data.
+
+// Array methods
+
+1. length : length is used to find total number of elements inside the array.
+
+2. push : push is used to add the value/values at the end of the array
+
+3. pop : pop is used to removed the last value of the array
+
+4. unshift : unshift is used to add the value(s) at the beginning of the array
+
+5. shift : shift is used to removed the first value of the array
+
+6. splice : it is used to add/remove value(s) at any specific index
+
+syntax : splice(indexValue, deleteCount,insertElement)
+
+7. reverse : used to reverse the array and it will change the index values too.
+
+8. indexOf(element) : used to retur the index of first occurence of element in given array
+
+9. lastIndexOf(element) : used to return the last occurence of element in given array.
+
+10. includes(element) : returns true/false based on whether the element existed in array or not.
+
+// iterators of array
+1. forEach() : 
+    -   forEach accepts a callback function and it is used to return each and every value of array to callback function and do the operations.
+    - forEach can't return any value
+    - A function which is in the parameter of another function is called callback
+    syntax:
+      arrayName.forEach((value, index) =>
+      {
+        //statements
+      });
+2. map():
+    - map accepts a callback function and it passes each value, index to the callback function and return the value returned by callback function
+    - map returns for every element of the Array
+    syntax:
+      arrayName.map((value, index) =>
+      {
+        //statements
+        //return <value>
+      });
+3. filter():
+    - filter accepts a callback function and it passes each value to the callback function
+    - return elements which got true , returned by the call back funcion.
+    
+     syntax:
+      arrayName.filter((value, index) =>
+      {
+        //statements
+        //return <true-value>
+      });
+4. some():
+    - some accepts a callback functon and it passes each value, index to the callback function and return true if atleast one of the alue returns true in callback.
+    syntax:
+      arrayName.some((value, index) =>
+      {
+        //statements
+        //return <true-value>
+      });
+5. every():
+    - every accepts a callback functon and it passes each value, index to the callback function and return true if all the alue returns true in callback.
+    syntax:
+      arrayName.every((value, index) =>
+      {
+        //statements
+        //return <true-value>
+      });
+6. sort():
+    - It is used to sort the elements of the array.
+    - By default it sorts in alphabetical order even for nubmers
+    - but we can bypass it by sending a callback which works as bubblesort algorithm.
+    - if returned value is true then swap the elements
+    - else don't swap the elements
+
+    increasing order : arr.sor((a,b) => a-b);
+    decreasing order : arr.sor((a,b) => b-a);
+7. reduce:
+    - it is used to accept a callback and perform cummulative value on array elements. It also accepts initial value
+    arrayName.reduce((previousValue, CurrentValue) => previousValue+CurrentValue, 0)
+
+Object:
+  It is like a physical entity that contains properties and methods
+  eg:
+    let obj={
+      name:"raj", age:50,
+      fun: function(){
+        //console.log(obj.name)
+        console.log(this.name)
+      }
+    }
+
+    To access properties, you can use dot or index singnature
+    console.log(obj.name, obj['name'])
+    obj.fun();
+
+    'this' keyword referes current calling object name

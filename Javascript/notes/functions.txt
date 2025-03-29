@@ -1,0 +1,200 @@
+function is a piece of code that can be repreated and used for specfic tasks.
+It suoppors DRY(Don't repeat yourself) principle.
+
+basic syntax:
+
+function function-name(parameters)
+{
+    //function body
+}
+
+function_name(); // function call
+
+eg: function sum()
+{
+    let a=10, b=20;
+    console.log(a+b);
+}
+
+sum();
+
+functions call pass values as parameters
+function sum2(a,b)
+{
+    console.log(a+b)
+}
+
+sum2("sunil",2) //sunil2
+
+functions can return values
+function sum4(a,b)
+{
+    return a+b;
+}
+
+let res = sum4(5,4);
+console.log(res);
+
+functions can accept more values than it is passed, by default not passed parameters are "undefined"
+function sum5(a,b)
+{
+    console.log(a+b); // 10 + undefined = NaN
+}
+sum5(10); //NaN
+
+b is not passed so it will be taken as "undefined".
+Instead of undefined, you can also pass default values
+function sum6(a=3,b=5)
+{
+    console.log(a+b); 
+}
+sum6(10); //10 +5 =15
+sum6(); // 3 +5 = 8
+
+//default tax in system is 5% unless actual tax mentioned
+function calculateTax(cost, tax=5)
+{
+    let res = (tax/100)*cost;
+    console.log(cost+res); //210
+}
+calculateTax(200)
+
+
+REST and SPREAD operators:
+    functions can even take more no.of values and all extra values will be converted as an array and REST is denoted by three dots
+
+    function sum8(a, ...b)
+    {
+        console.log(a, b);
+    }
+
+    sum8(5,4,3,2,1) // 5, [4,3,2,1]
+
+    A rest parameter will be last in the parameter list.
+
+    There is an another operator similar to REST called SPREAD.
+    It also used three dots but REST operator will take remaining elements and make then as array and SPREAD operators remove the elements from the array
+    REST => to take the values and adding as array
+    SPREAD => to give the values and break them as single elements
+
+    function simpleSpread()
+    {
+        let arr = [5, 4];
+        let arr2 = [arr, 3];
+        console.log(arr2)// [[5,4],3]
+        console.log(arr2.length) //2
+
+        let arr3 = [...arr, 3];
+        console.log(arr3); // [5,4,3]
+        console.log(arr3.length) //3
+
+        // add two arrays
+        let a1 = [5,4], a2 = [6, 7]
+        let res = [...a1, ...a2];
+        console.log(res); //[5, 4, 6, 7]
+    }
+    simpleSpread();
+
+functions can be considered as variables and functions can also pass as parameters to another functions called as callback functions
+
+eg 1: 
+function mad ()
+{
+    console.log("i'm mad")
+} 
+function bad (a)
+{
+    a()
+}
+bad(mad)
+
+eg 2:
+
+function sum (a, b)
+{
+    console.log(a + b);
+}
+function sub (a, b)
+{
+    console.log(a - b);
+}
+function cal (x, y)
+{
+    x(5, 4)
+    y(5,4)
+}
+cal(sum,sub)
+
+The concept of writing or the concept of passing one function into another function is called callback function. Here sum and sub are callback functions bcz they are passed by another function
+
+functions can be treated as variables
+function add()
+{
+    let a=3, b=4;
+    console.log(a+b)
+}
+console.log(add)
+
+A funtion can be expresses as a variable expression. It's called function expression
+let x= function fun()
+{
+    console.log("hi)
+}
+
+here x is full fuction. 
+We can even write function expression for anonymous function without function name.
+
+let x= function()
+{
+    console.log("hi")
+}
+
+//ecommerce scenerio
+
+function addCart() { //logic for adding count and price and items}
+
+function cartPage(y)
+{
+    y()
+}
+
+function productPage(x)
+{
+    x()
+}
+
+productPage(addCart)
+cartPage(addCart)
+
+-- Different types of writing functions
+
+//function declaration -- function with proper name
+function fun2()
+{
+    console.log("hello world")
+}
+
+// function expression -- function without name giving to another variable
+let fun2 = function()
+{
+    console.log("hello world")
+}
+
+// arrow function -- simplified modern expression for function expression
+let fun2 = () => {
+    console.log("hello world")
+}
+advantage is for single statement body you don't need {} braces
+let fun2 = () => console.log("hello world")
+arrow function don't need return keyword for single statement
+
+function sum10(a, b)
+{
+   return a + b; 
+}
+
+let sum10 = function(a, b){
+    return a + b; 
+}
+
+const sum10 = (a, b) => a+b;

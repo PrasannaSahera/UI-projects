@@ -1,0 +1,50 @@
+loops are used to repeat certain statements again and again until the condition is false
+Each repitition is called Iteration.loops are primarily two types
+  i. Entry Control loops
+  ii. Exit Control loops
+
+i. Entry control loops: Entry Control loops checks the condition at the starting the loop
+  eg: while, for
+
+ii. Exit Control loops: Exit control loops checks the condition at the ending of the loop
+  eg: do-while
+
+  a. while: while is a entry control loop which have a condition and executes a set of statements again and again until the condition is false
+   syntax: intialization;
+           while(condition){
+            //set of statements;
+            updation;
+           }
+
+    eg:let i = 0; //initialization;
+while (i <= 10) // condition
+{
+    console.log(i);
+    i++; //updation
+}
+
+  b. do while : doWhile checks the condition at the exit of the loop and repeat the set of statements execution if the condition is true
+  syntax: 
+  initialization;
+  do{
+    //statements;
+    //updation;
+  }while(condition);
+
+ c. for loop: for loop is used to iterate certain statements until the condition is false but for allows you to write in single line all initialization,condition and updation.
+  syntax for(initialization;condition;updation){
+    //statements;
+  }
+
+  for..of : for of is used to iterate values of the array and 
+  it provides each time array elements
+  eg: for(let x of arrayname){
+    console.log(x) 
+  }
+  The above loops runs until end of the array and each time it takes x as array elements
+
+  for..in: for in is used to iterate values of the array and it provides each time array index. for in is ideal for objects
+  eg: for(let x in arrayname){
+    console.log(x) 
+  }
+  The above loops runs until end of the array and each time it takes x as array elements index
