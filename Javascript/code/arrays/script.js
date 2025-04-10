@@ -112,3 +112,12 @@ console.log(res2);
 arr = [1, 2, 3, 4, 5]
 let res3 = arr.reduce((p,c) => p * c, 1)
 console.log(res3);
+
+let obj = {
+	name: "raj",
+	age: 50,
+	fun: function () {
+		console.log(this.name)
+	},
+}
+obj.fun()

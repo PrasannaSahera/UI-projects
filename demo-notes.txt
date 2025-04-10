@@ -122,3 +122,5 @@ To work with HTML, we need a code editor. Download and install VSCode
   step 3: double click on downloaded file and next--->next until install -->finish
 
 Day 7: in intro.txt file under notes folder
+
+https://drive.google.com/drive/folders/19LZi8BVRxV4FYMgrgiDFI3JDgS9QneWw?usp=sharing
